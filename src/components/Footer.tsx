@@ -14,9 +14,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Column 1: Brand & About */}
           <div className="space-y-4 lg:col-span-1">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-xl bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 flex items-center justify-center font-bold text-sm shadow-xs">
-                NW
-              </div>
+              <img
+                src="/logo.svg"
+                alt="نون ویکی"
+                className="w-8 h-8 rounded-xl shadow-xs"
+              />
               <div>
                 <span className="font-extrabold text-base text-neutral-900 dark:text-neutral-100 block">نون ویکی</span>
                 <span className="text-[11px] font-english text-neutral-400 dark:text-neutral-500">wiki.nounproject.ir</span>

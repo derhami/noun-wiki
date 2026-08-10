@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="نون ویکی - Noun Wiki">
+  <defs>
+    <linearGradient id="logo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#logo-bg)"/>
+  <g stroke="#ffffff" stroke-width="52" stroke-linecap="round" fill="none">
+    <line x1="166" y1="166" x2="166" y2="346"/>
+    <line x1="166" y1="166" x2="344" y2="346"/>
+    <line x1="344" y1="166" x2="344" y2="346"/>
+  </g>
+  <circle cx="392" cy="392" r="22" fill="#f59e0b"/>
+</svg>

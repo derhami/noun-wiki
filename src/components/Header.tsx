@@ -36,9 +36,11 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => onNavigate('/')} 
             className="flex items-center gap-2.5 text-right group focus:outline-none"
           >
-            <div className="w-8 h-8 rounded-lg bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 flex items-center justify-center font-bold text-sm shadow-sm group-hover:scale-105 transition-transform">
-              N
-            </div>
+            <img
+              src="/logo.svg"
+              alt="نون ویکی"
+              className="w-8 h-8 rounded-lg shadow-sm group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="font-bold text-base tracking-tight text-neutral-900 dark:text-neutral-100 leading-none">
                 نون ویکی
