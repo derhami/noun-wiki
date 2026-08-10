@@ -1,0 +1,6 @@
+{
+  "name": "Noun Wiki",
+  "description": "دانشنامه اصطلاحات دنیای کار، کسب‌وکار، فناوری و مدیریت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
